@@ -25,7 +25,7 @@ public class Context {
         computer = new Computer();
     }
 
-    public boolean compare(){
+    public GameResult compare(){
         Compare compare = new Compare();
         int inputNum = player.getInputNumber().getInputNumber();
 
@@ -35,13 +35,13 @@ public class Context {
 
 
     public void inputData(){
-        OutputFunction.print("숫자를 입력해주세요:");
+        OutputFunction.print("숫자를 입력해주세요 : ");
         this.player = new Player(InputFunction.readLine());
     }
 
 
     public boolean isPlay(){
 
-        return whatIsFunctions.isPlay();
+        return this.whatIsFunctions.isPlay();
     }
 }
