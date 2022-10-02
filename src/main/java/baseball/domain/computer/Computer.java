@@ -7,15 +7,20 @@ import java.util.*;
 
 public class Computer {
 
-    public static List<Integer> RANDOM_NUMBER;
+    private final List<Integer> RANDOM_NUMBER;
 
     private final int TOTAL_SIZE = 3;
     private final int START_VALUE = 1;
     private final int END_VALUE = 9;
 
     public Computer(){
-        RANDOM_NUMBER = generatePickRndNumber();
+        this.RANDOM_NUMBER = generatePickRndNumber();
     }
+
+    public List<Integer> getRANDOM_NUMBER(){
+        return this.RANDOM_NUMBER;
+    }
+
 
 
     public List<Integer> generatePickRndNumber(){
