@@ -30,7 +30,7 @@ public class Context {
         int inputNum = player.getInputNumber().getInputNumber();
 
 
-        return compare.compareTwoNumber(inputNum, computer.RANDOM_NUMBER);
+        return compare.compareTwoNumber(inputNum, computer.getRANDOM_NUMBER());
     }
 
 
