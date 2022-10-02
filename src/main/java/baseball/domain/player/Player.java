@@ -5,8 +5,6 @@ import baseball.io.InputFunction;
 
 public class Player {
 
-    public String userInput;
-
     private InputNumber number;
 
     public Player(String input){
