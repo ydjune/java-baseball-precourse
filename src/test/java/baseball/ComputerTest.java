@@ -11,7 +11,7 @@ public class ComputerTest {
     @Test
     public void 랜덤수_테스트(){
         Computer computer = new Computer();
-        List<Integer> numList = computer.RANDOM_NUMBER;
+        List<Integer> numList = computer.getRANDOM_NUMBER();
 
         for (int a : numList) {
             System.out.println("a: " + a);
