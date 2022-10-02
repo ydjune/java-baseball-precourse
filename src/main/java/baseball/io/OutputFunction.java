@@ -1,4 +1,4 @@
-package baseball.function;
+package baseball.io;
 
 public class OutputFunction {
     public static void print(Object msg){
